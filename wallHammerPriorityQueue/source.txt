@@ -1,0 +1,30 @@
+<p>You are given an array&nbsp;<span class="mathjax-latex">\(A\)</span>, having&nbsp;<span class="mathjax-latex">\(N\)</span>&nbsp;elements,&nbsp;<span class="mathjax-latex">\(A_1, A_2,A_3,...,A_n\)</span>. A God's Pair is the pair of&nbsp;<span class="mathjax-latex">\((A_i,A_j)\)</span>&nbsp;such that&nbsp;<span class="mathjax-latex">\(\sqrt[5] {A_i*A_j}\)</span>&nbsp;gives a natural number&nbsp;where&nbsp;<span class="mathjax-latex">\(i \neq j\)</span>. Now you have to find the total number of God's Pair present in the array. Also note a&nbsp;pair&nbsp;<span class="mathjax-latex">\((A_i,A_j)\)</span>&nbsp;and&nbsp;<span class="mathjax-latex">\((A_j,A_i)\)</span>&nbsp;are same and not to be counted twice.</p>
+
+<p><strong>Input format:</strong></p>
+
+<ul>
+	<li>First line: An integer&nbsp;<span class="mathjax-latex">\(N\)</span>&nbsp;denoting number of elements in array</li>
+	<li>Second line:&nbsp;<span class="mathjax-latex">\(N\)</span>&nbsp;space seperated integers where&nbsp;<span class="mathjax-latex">\(i^{th}\)</span>&nbsp;element indicates&nbsp;<span class="mathjax-latex">\(A_i\)</span></li>
+</ul>
+
+<p><strong>Output format:</strong></p>
+
+<ul>
+	<li>Print a single line containing a single integer denoting the total number of God's&nbsp;Pairs.</li>
+</ul>
+
+<p><strong>Constraints:</strong></p>
+
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;<span class="mathjax-latex">\(1 \leq N \leq 10^4\)</span></strong></p>
+
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;<span class="mathjax-latex">\(1 \leq A_i \leq 10^{18}\)</span></strong></p>
+
+<p><strong>Sample input:</strong></p>
+
+<p><strong>&nbsp; &nbsp;&nbsp;</strong><span class="mathjax-latex">\(5\)</span></p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="mathjax-latex">\(2\ 8\ 5\ 4\ 4\)</span></p>
+
+<p><strong>Sample output:</strong></p>
+
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;<span class="mathjax-latex">\(2\)</span></strong></p>
